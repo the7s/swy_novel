@@ -1,0 +1,157 @@
+name: swy_novel
+description: a novel reader application
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+
+  # 设备信息
+  device_info: ^0.4.2+7
+
+  # 网络请求库
+  dio: ^3.0.10
+
+  # 颜色选择器
+  flutter_colorpicker: ^0.3.4
+
+  # 刷新加载控件
+  flutter_easyrefresh: ^2.1.5
+
+  flutter_html: ^0.11.1
+
+  # 侧滑菜单
+  flutter_inner_drawer: ^0.5.7+1
+
+  # https://github.com/dooboolab/flutter_sound
+  flutter_sound: ^2.1.1
+
+  # 加载提示组件
+  flutter_spinkit: ^4.1.2+1
+
+  # 瀑布流
+  flutter_staggered_grid_view: ^0.3.2
+
+  # banner
+  flutter_swiper: ^1.1.6
+
+  # 集成图标库
+  # FontAwesome 地址：http://www.fontawesome.com.cn/
+  # Feather 地址：https://feathericons.com/
+  # EvilIcons 地址：https://evil-icons.io/
+  # AntDesign 地址：https://ant.design/components/icon/
+  # Ionicons 地址：https://ionicons.com
+  # Fontisto 地址：https://fontisto.com/icons
+  # Foundation 地址：https://zurb.com/playground/foundation-icon-fonts-3
+  # Octicons 地址：https://octicons.github.com/
+  # SimpleLineIcons 地址：https://simplelineicons.github.io/
+  flutter_vector_icons: ^0.2.1
+  # 图片选择器
+  image_picker: ^0.6.7+10
+
+  # 汉字转拼音库 https://github.com/flutterchina/lpinyin
+  lpinyin: ^1.0.9
+
+  multi_image_picker: ^4.7.14
+
+  package_info: ^0.4.3
+
+  palette_generator: ^0.2.3
+
+  # 滑动视差效果图片 https://github.com/pulyaevskiy/parallax-image
+  parallax_image: ^0.3.1+1
+
+  # path_provider: ^1.6.7
+
+  share: ^0.6.5+1
+
+  # SP
+  shared_preferences: ^0.5.10
+
+  # 对 flare API进行封装的插件，使用少量的代码即可实现交互动画
+  smart_flare: ^0.2.9+1
+
+  # 数据库
+  # sqflite: ^1.3.1+1
+
+  # 时间线 https://github.com/furkantektas/timeline_list
+  timeline_list: ^0.0.5
+
+  # 透明占位图片
+  transparent_image: ^1.0.0
+
+  url_launcher: ^5.7.0
+
+  # 手机震动
+  vibration: ^1.5.0
+
+  # 视频播放器器
+  video_player: ^0.10.12+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/
+    - lib/images/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
